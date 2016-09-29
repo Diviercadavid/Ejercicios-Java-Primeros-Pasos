@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project-private xmlns="http://www.netbeans.org/ns/project-private/1">
+    <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="0"/>
+    <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
+        <group name="NetBeansProjects">
+            <file>file:/D:/Usuario/Documents/NetBeansProjects/Agenda_hibernate/src/hibernate.reveng.xml</file>
+            <file>file:/D:/Usuario/Documents/NetBeansProjects/Agenda_hibernate/src/Modelo/Usuarios.java</file>
+            <file>file:/D:/Usuario/Documents/NetBeansProjects/Agenda_hibernate/src/Modelo/Administradores.hbm.xml</file>
+            <file>file:/D:/Usuario/Documents/NetBeansProjects/Agenda_hibernate/src/Vista/AltaNoticias.java</file>
+            <file>file:/D:/Usuario/Documents/NetBeansProjects/Agenda_hibernate/src/Controlador/Operaciones.java</file>
+            <file>file:/D:/Usuario/Documents/NetBeansProjects/Agenda_hibernate/src/hibernate.cfg.xml</file>
+            <file>file:/D:/Usuario/Documents/NetBeansProjects/Agenda_hibernate/src/Controlador/HibernateUtil.java</file>
+            <file>file:/D:/Usuario/Documents/NetBeansProjects/Agenda_hibernate/src/Vista/Alta_Usuarios.java</file>
+            <file>file:/D:/Usuario/Documents/NetBeansProjects/Agenda_hibernate/src/agenda_hibernate/Agenda_hibernate.java</file>
+        </group>
+    </open-files>
+</project-private>

@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.effect.*?>
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="AnchorPane" prefHeight="700.0" prefWidth="700.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="pruebajavafx.FXMLDocumentController">
+    <children>
+        <Button id="btn_generar" fx:id="btn_generar" layoutX="303.0" layoutY="361.0" prefHeight="33.0" prefWidth="95.0" text="Generar" />
+        <Label fx:id="label" layoutX="209.0" layoutY="117.0" minHeight="16" minWidth="69" text="CEDULA:">
+         <font>
+            <Font size="16.0" />
+         </font></Label>
+      <Label fx:id="label1" layoutX="209.0" layoutY="222.0" minHeight="16" minWidth="69" text="NOMBRES:">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </Label>
+      <TextField id="txb_nombre" layoutX="299.0" layoutY="116.0" prefHeight="25.0" prefWidth="155.0" style="-fx-background-color: #f0f0f0; -fx-background-radius: 10;" />
+      <Label fx:id="label11" layoutX="217.0" layoutY="451.0" minHeight="16" minWidth="69" text="DATOS.">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </Label>
+      <TextField id="txb_datos" fx:id="txb_datos" layoutX="292.0" layoutY="451.0" />
+      <TextField id="txb_nombre" layoutX="300.0" layoutY="152.0" prefHeight="25.0" prefWidth="155.0" style="-fx-background-color: #f0f0f0; -fx-background-radius: 10;" />
+      <TextField id="txb_nombre" layoutX="329.0" layoutY="187.0" prefHeight="25.0" prefWidth="126.0" style="-fx-background-color: #f0f0f0; -fx-background-radius: 10;" />
+      <Label fx:id="label12" layoutX="203.0" layoutY="255.0" minHeight="16" minWidth="69" text="APELLIDOS:">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </Label>
+      <TextField id="txb_nombre" layoutX="306.0" layoutY="222.0" style="-fx-background-color: #f0f0f0; -fx-background-radius: 10;" />
+      <Label fx:id="label13" layoutX="208.0" layoutY="152.0" minHeight="16" minWidth="69" text="USUARIO:">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </Label>
+      <TextField id="txb_nombre" layoutX="306.0" layoutY="256.0" style="-fx-background-color: #f0f0f0; -fx-background-radius: 10;" />
+      <Label fx:id="label14" layoutX="208.0" layoutY="187.0" minHeight="16" minWidth="69" text="CONTRASEÑA:">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </Label>
+      <TextField id="txb_nombre" layoutX="306.0" layoutY="290.0" style="-fx-background-color: #f0f0f0; -fx-background-radius: 10;" />
+      <Label fx:id="label121" layoutX="204.0" layoutY="290.0" minHeight="16" minWidth="69" text="TELEFONO: ">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </Label>
+      <TextField id="txb_nombre" layoutX="306.0" layoutY="325.0" style="-fx-background-color: #f0f0f0; -fx-background-radius: 10;" />
+      <Label fx:id="label122" layoutX="208.0" layoutY="325.0" minHeight="16" minWidth="69" text="CORREO:">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </Label>
+    </children>
+</AnchorPane>

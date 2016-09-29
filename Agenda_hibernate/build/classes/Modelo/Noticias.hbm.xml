@@ -1,0 +1,24 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+"http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd">
+<!-- Generated 8/08/2016 10:26:50 PM by Hibernate Tools 4.3.1 -->
+<hibernate-mapping>
+    <class name="Modelo.Noticias" table="noticias" catalog="daw_pruebas" optimistic-lock="version">
+        <id name="id" type="java.lang.Integer">
+            <column name="ID" />
+            <generator class="identity" />
+        </id>
+        <many-to-one name="usuarios" class="Modelo.Usuarios" fetch="select">
+            <column name="USUARIO" length="30" />
+        </many-to-one>
+        <property name="titular" type="string">
+            <column name="TITULAR" length="256" />
+        </property>
+        <property name="texto" type="string">
+            <column name="TEXTO" length="256" />
+        </property>
+        <property name="fecha" type="timestamp">
+            <column name="FECHA" length="19" />
+        </property>
+    </class>
+</hibernate-mapping>
